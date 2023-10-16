@@ -57,5 +57,23 @@ namespace LeetCodeProblemsAndSolutions.MediumProblems
 
             return maxLength;
         }
+
+        public static bool IsPalindrome(string input)
+        {
+            // Remove spaces and convert the string to lowercase
+            string cleanedString = input.Replace(" ", "").ToLower();
+
+            // Compare the cleaned string with its reverse
+            for (int i = 0; i < cleanedString.Length / 2; i++)
+            {
+                if (cleanedString[i] != cleanedString[cleanedString.Length - i - 1])
+                {
+                    // Characters at symmetric positions are not equal, not a palindrome
+                    return false;
+                }
+            }
+            // All characters match, it's a palindrome
+            return true;
+        }
     }
 }

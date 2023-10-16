@@ -20,8 +20,17 @@ namespace LeetCodeProblemsAndSolutions
             //Console.WriteLine("Result : ");
             //foreach(int i in list) { Console.WriteLine(i); }
 
-            var input = "abcabcbb";
+            var input = "abba";
             Console.WriteLine(LongestSubstring.LengthOfLongestSubstring(input));
+
+            var parantheses = "()";
+            Console.WriteLine(ValidParantheses.IsValid(parantheses));
+            parantheses = "()[]{}";
+            Console.WriteLine(ValidParantheses.IsValid(parantheses));
+            parantheses = "(]";
+            Console.WriteLine(ValidParantheses.IsValid(parantheses));
+       
+
         }
     }
 }
