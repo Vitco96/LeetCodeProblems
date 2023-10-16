@@ -1,29 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rovitc/Documents/GitHub/LeetCodeProblems/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions.csproj": {}
+    "C:\\Users\\Vitco\\Desktop\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions.csproj": {}
   },
   "projects": {
-    "/Users/rovitc/Documents/GitHub/LeetCodeProblems/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions.csproj": {
+    "C:\\Users\\Vitco\\Desktop\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rovitc/Documents/GitHub/LeetCodeProblems/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\Vitco\\Desktop\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions.csproj",
         "projectName": "LeetCodeProblemsAndSolutions",
-        "projectPath": "/Users/rovitc/Documents/GitHub/LeetCodeProblems/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions.csproj",
-        "packagesPath": "/Users/rovitc/.nuget/packages/",
-        "outputPath": "/Users/rovitc/Documents/GitHub/LeetCodeProblems/LeetCodeProblemsAndSolutions/LeetCodeProblemsAndSolutions/obj/",
+        "projectPath": "C:\\Users\\Vitco\\Desktop\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions.csproj",
+        "packagesPath": "C:\\Users\\Vitco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vitco\\Desktop\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblemsAndSolutions\\LeetCodeProblemsAndSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rovitc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Vitco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://appme.miele.com/artifactory/api/nuget/dps-app-nuget": {},
-          "https://artifacts.appme.miele.com/artifactory/api/nuget/dps-app-nuget": {},
-          "https://artifacts.appme.miele.com/artifactory/api/nuget/v3/dps-app-nuget": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -46,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
