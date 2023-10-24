@@ -32,6 +32,8 @@ using System.Threading.Tasks;
 
 namespace LeetCodeProblemsAndSolutions.EasyProblems
 {
+
+    //Resolved problem using stack, if the stack is empty at the end of the execution, the parantheses are valid.
     public static class ValidParantheses
     {
         public static bool IsValid(string s)
