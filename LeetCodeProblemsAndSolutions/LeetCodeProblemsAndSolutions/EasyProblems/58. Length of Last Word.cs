@@ -37,11 +37,11 @@ namespace LeetCodeProblemsAndSolutions.EasyProblems
 {
     public static class LengthOfLastWordProblem
     {
+        //First we split the string into substrings separated by spaces. Than we take the last element that is not an empty string
+        //and return the length of that element.
         public static int LengthOfLastWord(string s)
         {
-            
             return s.Split(' ').Last(x => x.Length > 0).Length;
-           
         }
     }
 }
